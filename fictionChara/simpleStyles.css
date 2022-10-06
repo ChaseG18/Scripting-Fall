@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	background-color:#69481D;
+	text-align: center;
+	padding: 20px;
+	marigin: 0px;
+	text-decoration: underline;
+	
+}
+
+
+section{
+	background-color:burlywood;
+	max-width: 1200px;
+	padding:5px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	overflow: hidden;
+	margin:0 auto;	
+}
+.alternate{
+	background-color:#69481D; 
+}
+/******************************nav*********************/
+nav ul {
+  list-style-type: none;
+  margin:0 auto;
+  padding: 25px;
+  overflow: hidden;
+	/*background color of the whole blurb*/
+  background-color:#422E21;
+}
+
+nav li{
+	float: left;
+	border-right: 1px solid black;
+	overflow:hidden;
+	color:white;
+
+}
+nav li a:link{
+	color:white;
+	display:block;
+	text-decoration: none;
+		text-duration:1s;
+}
+nav li a:hover{
+	color: darkgoldenrod;
+}
+nav li:last-child{
+	border-right:none;
+}
+nav{
+	display:block;
+	text-align: center;
+	padding:0;
+	margin:0;
+	border: thick dotted;
+}
+a:link{
+	color:black;
+	text-decoration: none;
+}
+a:visited{
+	color:black;
+}
+a:hover{
+	color:darkgoldenrod;
+}
+/******************************Surfs up******************/
+#about{
+	
+	text-align:center;
+	padding:0px 5px
+	
+}
+
+.beach{
+	float:right;
+	padding:0px 0px 20px 50px;
+}
+
+.sad{
+	float:left;
+	padding: 0px 50px 20px 0px
+}
+/*************************Can't stop singing?*************/
+#music{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	margin: 0px;
+	background-color:#CDA277;
+	padding:20px;
+	overflow: hidden;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
