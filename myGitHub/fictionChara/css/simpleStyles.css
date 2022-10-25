@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Homemade+Apple&family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+header{
+	background-color:#69481D;
+	text-align: center;
+	padding:20px;
+	marigin: 0px;
+	text-decoration: underline;
+	border-style:double;
+	border-width:15px;
+	font-family: 'Rock Salt', cursive;
+}
+
+
+#brady{
+	border-style: solid;
+	border-width: 5px;
+}
+body{
+	background-color:#422E21;
+	border-style: solid;
+	border-width:10px;
+	border-color:#121212;
+}
+
+
+section{
+	background-color:burlywood;
+	max-width: 1200px;
+	padding:5px;
+	font-family: 'Peralta', cursive;
+	overflow: hidden;
+	margin:0 auto;	
+	text-align: center;
+	border-style: double;
+	border-width:10px;
+	
+}
+h2{
+	font-family: 'Peralta', cursive;
+	text-decoration: underline;
+	font-size: 25px;
+}
+.alternate{
+	background-color:#69481D; 
+}
+/******************************nav*********************/
+nav ul {
+  list-style-type: none;
+  margin:0;
+  padding: 10px;
+  overflow: hidden;
+	/*background color of the whole blurb*/
+  background-color:#422E21;
+}
+
+nav li{
+	float: left;
+	overflow:hidden;
+	color:white;
+	border-right: 1px solid #bbb;
+
+}
+nav li a:link{
+	color:white;
+	display:block;
+	text-align: center;
+ 	padding: 0px 16px;
+	text-decoration: underline;
+		text-duration:1s;
+}
+nav li a:hover {
+	color: darkgoldenrod;
+}
+nav li:last-child{
+	border-right:none;
+}
+nav{
+	display:block;
+	text-align: center;
+	padding:0px;
+	margin:0;
+	font-size: 20px;
+	border-style:groove;
+	border-color:grey;
+	border-width:5px;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+a:link{
+	color:black;
+}
+a:visited{
+	color:black;
+}
+a:hover{
+	color:darkgoldenrod;
+}
+/******************************Surfs up******************/
+#about{
+	
+	text-align:center;
+	padding:0px 5px;
+	
+}
+
+.beach{
+	float:right;
+	margin: 0px 0px 20px 50px;
+	border-style: solid; 
+}
+
+.sad{
+	float:left;
+	margin: 0px 50px 20px 0px;
+	border-style: solid; 
+}
+/*************************Can't stop singing?*************/
+#main{
+	float:left;
+	padding-left:145px;
+	text-decoration: underline;
+}
+
+#sub{
+	float:right;
+	padding-right: 245px;
+	text-decoration: underline;
+}
+
+/**************collest cats in town******************/
+/*pictures*/
+
+#friends h4{
+	text-decoration: underline;
+	font-family: 'Peralta', cursive;
+	margin-left: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+#friends h5{
+	font-family: 'Peralta', cursive;
+	text-decoration: underline;
+	margin-left: 10px;
+	font-size: 15px;
+}
+#mack{
+	float: right;
+	border-style: solid;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.mack{
+	text-align: left;
+}
+#tanner{
+	float:right;
+	border-style: solid;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.tanner{
+	text-align: left;
+}
+
+#lela{
+	float:right;
+	border-style: solid;
+	margin-right: 20px;
+}
+.lela{
+	text-align: left;
+}
+#butchy{
+	float:right;
+	border-style: solid;
+	margin-right: 20px;
+	margin-bottom:20px;
+}
+.butchy{
+	text-align: left;
+}
+
+#friends{
+	text-align: left;
+}
+
+
+footer{
+	margin: 0px;
+	background-color:#69481D;
+	padding:20px;
+	overflow: hidden;
+	text-align:center;
+	border-style: double;
+	border-width:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

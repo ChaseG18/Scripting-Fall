@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+body{
+	background-color:#848484;
+}
+#home{
+	background-color:#848484;
+	background-position:center; 
+	background-size:cover;
+	padding-top:25px;
+	padding-bottom:25;
+	font-family: 'Quintessential', cursive;
+	border-style: solid;
+	border-color:#848484;
+	border-width: 15px;
+	overflow: hidden;
+}
+#chase{
+	border-style: solid;
+	border-width: 5px;
+	padding:25px;
+	background-color: lightgrey;
+	border-color:black;
+	overflow: hidden;
+}
+
+#info{
+	border-style: solid;
+	border-width: 5px;
+	background-color: lightgrey;
+	border-color:black;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 15px;
+}
+
+#name{
+	padding-right:120px;
+}
+
+#profile{
+	border-style: solid;
+	border-width: 5px;
+	float:left;
+	margin-left:150px;
+	overflow: hidden;
+}
+
+h1{
+	float:right;
+	text-decoration: underline;
+	margin-top: 100px;
+		
+}
+h3{
+	text-decoration: underline;
+	font-family: 'Quintessential', cursive;
+	padding-bottom: 15px;
+}
+.justify-content-center{
+	background-color: #848484;
+}
+
+#about{
+	background-color: #848484;
+	border-color:black;
+}
+
+section{
+	background-color:lightgrey; 
+	
+}
+
+#button{
+	padding-bottom:20px;
+	padding-top:15px;
+}
+#content{
+	padding-top:20px;
+	background-color:#848484;
+	color:black;
+	border-color:black;
+}
+nav li a:link{
+	color:white;
+	
+}
+
+nav{
+	font-size: 22px;
+	background-color: #343A40;
+	overflow: hidden;
+}
+
+nav li{
+	border-right: 2px solid #bbb;
+	overflow: hidden;
+	font-family: 'Bilbo', cursive;
+}
+p{
+	font-family: 'Antic Slab', serif;
+}
+
+h2{
+	padding-bottom: 10px;
+	padding: 25px;
+	font-size: 20px;
+	overflow: hidden;
+	text-decoration: underline;
+	font-family: 'Quintessential', cursive;
+	border-width: medium;
+}
+h5{
+	font-family: 'Quintessential', cursive;
+	text-decoration: underline;
+}
+a:visited{
+	color:darkgrey;
+}
+
+#sun{
+	border-style:solid;
+	border-color: black;
+	border-width: medium;
+}
+
+#rallo{
+	border-style: solid;
+	border-color:black;
+	border-width: medium; 
+}
+
+#chloe{
+	border-style: solid;
+	border-color:black;
+	border-width: medium;
+}
+
+#contact{
+	text-decoration: underline;
+	background-color:#343A40;
+	color:white;
+	border-style: solid;
+	border-color: black;
+	border-width: medium;
+	font-size:15px;
+}
+
+#hobbies{
+	color:balck;
+}
+
+.navbar{
+	border-style:solid;
+	border-width: 5px;
+
+}
+
+#photography{
+	border-style:solid;
+	padding-top: 25px;
+	padding-bottom:25px;
+	background-color:lightgrey;
+	border-width: 5px;
+}
+
+#minecraft{
+	color:black;
+	font-family: 'Antic Slab', serif;
+}
+
+#phas{
+	color:black;
+	font-family: 'Antic Slab', serif;
+}
+
+#fortnite{
+	color:black;
+	font-family: 'Antic Slab', serif;
+}
+
+#fernie{
+	border-style: solid;
+	border-width: medium;
+}
+
+#hiking{
+	border-style:solid;
+	border-width:medium;
+}
+
+#hobbies{
+	background-color: lightgrey;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	margin-top:25px;
+	margin-bottom: 25px;
+	padding-top: 25px;
+}
+
+#activities{
+	background-color: #848484;
+}
+
+#alpine{
+	color:black;
+}
+
+#mountain{
+	color:black;
+}
+
+#family{
+	border-style: solid;
+	border-width: 5px;
+	margin-top:40px;
+}
+
+h6{
+	font-family: 'Tangerine', cursive;
+	font-size:20px;
+}
+
+#instagram{
+	color: white;
+}
+
+#facebook{
+	color: white;
+}
