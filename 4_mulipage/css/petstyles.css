@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+/*if you want different look in each header on the different pages, then use an id rather than header*/
+#servicesMasthead{
+	background-image:url("../images/backgrounds/White-German-Shepherd.webp");
+	background-size:cover;
+	background-position: center;
+}
+
+.display-1{
+	font-size: 32pt;
+}
+
+.bg-dark{
+	background-color:#2F0001 !important;
+}
+h2{
+	color:#A15755;
+}
+
+footer{
+	background-color: #0F4290;
+	color:white;
+	padding:100px 0px;
+}
+
+a{
+	color:white;
+}
+
+a:hover{
+	color:white;
+}
+
+a:visited{
+	color:white;
+}
+
+/*class to define the height of any element it is added to*/
+.height80{
+	height:80vh;
+}
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+	.display-1{
+		font-size: 50pt;
+	}
+}
+/* Medium devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) {
+	#servicesMasthead{
+		background-image:url("../images/backgrounds/White-German-Shepherd.webp");
+		background-size:cover;
+		background-position:center;
+	}
+	.display-1{
+		font-size:60pt;
+	}
+}
