@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&family=Parisienne&family=Rajdhani&display=swap');
+#masthead{
+/*	padding:150px;*/
+	color:white;
+	text-shadow: 10px 10px 15px black;
+	background-image:url("../photos/geographyBGEdit.png");
+	background-size:cover;
+	font-family: 'Parisienne', cursive;
+	margin:auto;
+}
+
+@media only screen and (min-width:601px) {
+	#masthead {
+		font-size: 15px;
+	}
+	h1{
+		font-size: 70px;
+	}
+	h4{
+		font-size:30px;
+	}
+}
+@media only screen and (max-width:600px) {
+	#masthead {
+		font-size: 10px;
+	}
+	h1{
+		font-size: 60px;
+	}
+	h4{
+		font-size:20px;
+	}
+}
+#name{
+	color:white;
+	background-color: rgba(42,42,42,0.79);
+	box-shadow: 10px 10px 15px black;
+	border-style: solid;
+	border-color:black;
+	text-align: center;
+}
+
+
+body{
+	background-color:#1a1a1a;
+}
+
+
+footer{
+	background-image:url("../photos/footerBGEdit.png");
+	background-size:cover;
+	background-position: center;
+	padding:85px 0;
+	border-style: solid;
+	border-color:white;
+}
+
+
+#cal{
+	margin: 50px 0;
+	box-shadow: 10px 10px 15px black;
+}
+
+#events{
+	padding:50px 0;
+	background-image: url("../photos/cliffsEdit.png");
+	background-position: center;
+	background-size: cover;
+	border-style: solid;
+	border-width: thick;
+	box-shadow: 10px 10px 15px black;
+}
+
+#watertower {
+	box-shadow: 10px 10px 15px black;
+	opacity: 95%;
+}
+
+#cliff{
+	background-color: rgba(42,42,42,0.79);
+	box-shadow: 10px 10px 15px black;
+	
+}
+
+#intro{
+	background-color: rgba(42,42,42,0.79);
+	color:white;
+	padding-top:75px;
+	box-shadow: 10px 10px 15px black;
+	
+}
+
+#nav{
+	box-shadow: 10px 10px 15px black;
+}
+
+#introduction{
+	padding-bottom:50px
+}
+
+#photo{
+	background-color: rgba(42,42,42,0.79);
+	color:white;
+	padding-top:15px;
+	box-shadow: 10px 10px 15px black;
+	padding-bottom: 15px;
+	
+}
+
+p{
+	font-family: 'Jost', sans-serif;
+}
+h4{
+	font-family: 'Rajdhani', sans-serif;
+	text-shadow: 10px 10px 15px black;
+	text-decoration: underline;
+	color:white;
+	background-color: rgba(42,42,42,0.79);
+	padding:25px 0;
+	box-shadow: 10px 10px 15px black;
+	font-size: 55px;
+}
+
+
+a{
+	color:white;
+}
+
+a :visited{
+	color:white;
+} 
+
+a :hover{
+	color:lightgrey;
+}
+
+#home{
+	border-style: solid;
+	background-color: #343A40;
+	box-shadow: 10px 10px 15px black;
+}
+
+
+#contacts{
+	border-style: solid;
+	background-color: #343A40;
+	box-shadow: 10px 10px 15px black;
+}
+
+#socials{
+	border-style: solid;
+	border-right:none;
+	border-left:none;
+	background-color: #343A40;
+	box-shadow: 10px 10px 15px black;
+}
+
+#footer{
+	border-style: solid;
+	color:white;
+	background-color: rgba(42,42,42,0.79);
+	box-shadow: 10px 10px 15px black;
+}
+
+#house{
+	border-style: solid;
+	padding:5px 35px;
+}

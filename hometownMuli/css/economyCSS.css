@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&family=Parisienne&family=Rajdhani&display=swap');
+#masthead{
+/*	padding:150px;*/
+	color:#4E4E4E;
+	text-shadow: 10px 10px 15px black;
+	background-image: url("../photos/economyBack.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Parisienne', cursive;
+	margin:auto;
+}
+
+@media only screen and (min-width:601px) {
+	#masthead {
+		font-size: 15px;
+	}
+	h1{
+		font-size: 70px;
+	}
+	h4{
+		font-size:40px;
+	}
+}
+@media only screen and (max-width:600px) {
+	#masthead {
+		font-size: 10px;
+	}
+	h1{
+		font-size: 60px;
+	}
+	h4{
+		font-size:20px;
+	}
+}
+
+
+#name{
+	background-color: rgba(42,42,42,0.79);
+	color:white;
+	box-shadow: 10px 10px 15px black;
+	border-style: solid;
+	border-color:black;
+}
+
+#eco{
+	background-color: rgba(42,42,42,0.79);
+	padding:10px;
+	box-shadow: 10px 10px 15px black;
+}
+body{
+	background-color:#1a1a1a;
+}
+
+
+footer{
+	background-image:url("../photos/footerBGEdit.png");
+	background-size:cover;
+	background-position: center;
+	padding:85px 0;
+	border-style: solid;
+	border-color:white;
+}
+
+#cal{
+	margin: 50px 0;
+	box-shadow: 10px 10px 15px black;
+}
+
+#events{
+	padding:50px 0;
+	background-image: url("../photos/economy.png");
+	background-size:cover;
+	background-position: bottom;
+	margin: 100px 0;
+	box-shadow: 10px 10px 15px black;
+}
+
+#farming{
+	background-color: rgba(42,42,42,0.79);
+	color:white;
+	box-shadow: 10px 10px 15px black;
+}
+
+#watertower {
+	box-shadow: 10px 10px 15px black;
+	opacity: 85%;
+}
+#rock{
+	box-shadow: 10px 10px 15px black;
+	opacity: 95%;
+}
+
+#intro{
+	background-color: rgba(42,42,42,0.79);
+	color:white;
+	padding: 25px 5px;
+	box-shadow: 10px 10px 15px black;
+}
+
+#nav{
+	box-shadow: 10px 10px 15px black;
+}
+
+#introduction{
+	background-color:#484848;
+	margin-top: 100px;
+	box-shadow: 10px 10px 15px black;
+}
+
+p{
+	font-family: 'Jost', sans-serif;
+}
+
+h4{
+	font-family: 'Rajdhani', sans-serif;
+}
+
+a{
+	color:white;
+}
+
+a :visited{
+	color:white;
+} 
+
+a :hover{
+	color:lightgrey;
+}
+
+#home{
+	border-style: solid;
+	background-color: #343A40;
+	box-shadow: 10px 10px 15px black;
+}
+
+
+#contacts{
+	border-style: solid;
+	background-color: #343A40;
+	box-shadow: 10px 10px 15px black;
+}
+
+#socials{
+	border-style: solid;
+	border-right:none;
+	border-left:none;
+	background-color: #343A40;
+	box-shadow: 10px 10px 15px black;
+}
+
+#footer{
+	border-style: solid;
+	color:white;
+	background-color: rgba(42,42,42,0.79);
+	box-shadow: 10px 10px 15px black;
+}
+
+#house{
+	border-style: solid;
+	padding:5px 35px;
+}
