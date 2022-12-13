@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Ms+Madi&family=WindSong:wght@500&display=swap');
+#builder{
+    position: relative;
+    height: 700px;
+}
+/*nested divs where we are placing images - HAVE to be position absolute - they will stack up*/
+#glasses, #tree, #purple,#green, #topper, #face{
+    position:absolute;
+}
+
+
+header{
+	background-image:url("../images/header.jpg");
+	background-size:cover;
+	background-position: top;
+	
+}
+
+h1{
+	background:black;
+	padding:50px 0;
+	border-style: double;
+	border-color: white;
+	border-width: thick;
+	font-family: 'WindSong', cursive;
+	font-size: 125px;
+	color: darkolivegreen;
+	
+}
+
+
+h3{
+	padding-top:25px;
+	padding-bottom: 25px;
+	color: darkolivegreen;
+	font-family: 'WindSong', cursive;
+	font-size: 60px;
+	text-decoration: underline;
+}
+
+h5{
+	font-size: 55px;
+	color:darkolivegreen;
+	box-shadow: 10px 10px 15px black;
+	padding:25px 0;
+	font-family: 'WindSong', cursive;
+}
+
+h4{
+	color:darkolivegreen;
+	font-size:35px;
+	text-decoration: underline;
+	font-family: 'WindSong', cursive;
+}
+
+h2{
+	font-size:50px;
+	color:red;
+	background-color:darkgreen;
+	background-size: cover;
+}
+body{
+	background-image: url("../images/body.webp");
+	background-size: cover;
+	background-position: center;
+}
+
+#selections{
+	background-color: black;
+	padding-bottom: 50px;
+	border-style: double;
+	border-color: white;
+	border-width: thick;
+	color: darkolivegreen;
+	font-family: 'Ms Madi', cursive;
+	font-size: 50px;
+	
+}
+
+footer{
+	background-image:url("../images/header.jpg");
+	background-position: top;
+	background-size: cover;
+}
+
+#footer{
+	background-color: black;
+	border-style: double;
+	border-color: white;
+}
+
+a{
+	color:darkolivegreen;
+}
+
+a:hover{
+	color:darkseagreen;
+}
+
+a:visted{
+	color:darkolivegreen;
+}
+
+a{
+	font-family: 'WindSong', cursive;
+}
+
+#reflection{
+	background-color:black;
+	color:white;
+	border-style: double;
+	border-color: white;
+}
